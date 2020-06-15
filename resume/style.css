@@ -8,10 +8,12 @@ BODY {
   font-weight: 400;
 }
 
+
 #container {
   width: 100%;
   max-width: 1200px;
   margin:0 auto;
+  padding-bottom: 50px;
 }
 
 
@@ -27,10 +29,16 @@ BODY {
 }
 
 /*title, student*/
-strong {
+#title {
   font-size: 1.5em;
   text-transform: uppercase;
   color:#33485e;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /*section titles, experience, education, skills*/
@@ -79,13 +87,14 @@ strong {
   margin-right: 0;
 }
 
-/*contact info, skills, education*/
+/*contact info*/
 
-.menu{ /*FIX*/
+.menu{
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: center; /*NOT WORKING*/
   display: inline;
+  list-style-type: none;
 }
 
 /*education*/
@@ -99,13 +108,21 @@ strong {
 
 /*skills*/
 
-#id{
+#do{
   margin-top: 5px;
   margin-bottom: 0;
-  margin-left: 0px;
+  margin-left: 0;
   margin-right: 0;
 }
 
 ul {
   font-size: 1em;
+}
+
+/*misson statement*/
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
