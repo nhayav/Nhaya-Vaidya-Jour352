@@ -21,7 +21,7 @@ BODY {
 #name {
   font-size: 3em;
   text-transform: uppercase;
-  text-align: center;
+  text-align:center;
   border-bottom: 1px solid #33485e;
   width: 60%;
   min-width: 300px;
@@ -92,10 +92,14 @@ BODY {
 .menu{
   margin: 0;
   padding: 0;
-  text-align: center; /*NOT WORKING*/
-  display: inline;
-  list-style-type: none;
+  text-align:center;
 }
+
+.menu li{
+  display: inline;
+ list-style-type: none;
+}
+
 
 /*education*/
 
