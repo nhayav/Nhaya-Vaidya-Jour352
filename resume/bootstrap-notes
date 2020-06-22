@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html>
+
+ <!-- Bootstrap Notes -->
+
+
+<!--
+
+class="display 1"
+makes the heading bigger, all bigger than H1
+
+class="lead paragraph"
+makes bigger
+
+
+text-justify : makes things center
+
+line height alignments
+align-SID:
+bullet of icon
+alight-baseline
+align-middle
+etc
+
+
+Capitalization
+text-TYP
+lowercasem uppercase, capitalize, monospace
+
+
+Text stylesheet
+font-styl
+italic, weight-normal, weight-light etc
+
+
+text modifiers
+text-decoration-none (no underline)
+text-reset
+
+FLOW
+text-FLOW:
+wrap nowrap break truncate
+
+
+
+
+Lists & blockquotes
+list-unstyle (no bullets)
+inline lists
+list-inline
+
+
+class:blockquote makes stuff bigger
+blockquote-footer
+
+COLOR
+text-success
+primary
+secondary
+success
+danger
+warning
+info
+light
+white-50
+
+#can use for links
+
+
+Variables
+is not compatable in all browers
+var(-pink)
+:root {
+-pink;
+}
+color/contextual Variables
+media queries
+breakpoint
+
+bootstrap only adds margins at bottom
+
+GRID
+Responsive 12 column
+creat div add class: column
+.container-sm
+.container-md
+.container-lg
+.container-xl
+.container-fluid
+all containers add 15 px padding
+
+
+
+
+rows and columns
+normally create a div with class of rows
+align
+vertical or horizontal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+
+</html>
