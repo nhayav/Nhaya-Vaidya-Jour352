@@ -1,0 +1,92 @@
+Jour352/652: Midterm
+Part 1: Q&A
+
+
+Directions: When you are done, please save your document as “your-name-midterm-pt1.txt” and submit on ELMS.
+
+****
+
+
+1.  In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
+
+
+<a href ="google.com"> Google </a> is the best search engine in the world.
+
+
+
+
+2.  Describe the purpose of a DIV tag.
+
+A DIV tag is a division in a HTML document. It can be used as a container and then styled with CSS using a class or id attribute.
+
+
+
+3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
+
+<html>
+
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+  </body>
+
+
+</html>
+
+
+
+4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
+
+The head
+
+
+5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
+
+The Body
+
+
+6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
+
+<div class="graphicbox"></div>
+<div id="name"></div>
+
+
+
+7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
+
+<div id="apples" class="fruit"></div>
+
+
+
+8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
+
+.fruit{
+  color: #000000;
+}
+
+
+9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
+
+<img src>
+
+
+
+10.  Why do we use media queries?
+
+Media queries are used to make webpages adapt when they reach certain sizes.
+
+
+11. What is the main difference between a serif and a sans-serif font?
+
+A serif font has small decorative elements at the end of some words while sans-serifs do not.
+
+
+12. Which of the following is a hexadecimal code?
+#FFCC33
+123,543,242
+101010101
+-213
+
+#FFCC33
