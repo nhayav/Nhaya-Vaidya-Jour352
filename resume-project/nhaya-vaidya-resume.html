@@ -6,25 +6,32 @@
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
  <title>Bootstrap Template</title>
-
-
  <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+<!--CSS Style-->
+<link href="style.css" type="text/css" rel="stylesheet">
+
+<!--Google Font-->
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+<!--font awesome script-->
+<script src="https://kit.fontawesome.com/5285119e63.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
    <!-- Start Bootstrap NAV-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-custom navbar-expand-lg fixed-top">
    <a class="navbar-brand" href="#">Nhaya Vaidya's Resume</a>
-   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
    </button>
 
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
      <ul class="navbar-nav mr-auto">
        <li class="nav-item active">
-         <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+         <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
        </li>
        <li class="nav-item">
          <a class="nav-link" href="#">Experience</a>
@@ -41,10 +48,8 @@
        <li class="nav-item">
          <a class="nav-link" href="#">Awards</a>
        </li>
-       <li class="nav-item">
-         <a class="nav-link" href="#">Other</a>
-       </li>
-       <!--
+
+<!--
        <li class="nav-item dropdown">
          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
            Dropdown
@@ -54,106 +59,138 @@
            <a class="dropdown-item" href="#">Another action</a>
            <div class="dropdown-divider"></div>
            <a class="dropdown-item" href="#">Something else here</a>
-         </div>
-       </li>
+         </div> -->
+    <!--   </li>
        <li class="nav-item">
          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
        </li> -->
      </ul>
-     <form class="form-inline my-2 my-lg-0">
+    <!-- <form class="form-inline my-2 my-lg-0">
        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-     </form>
+     </form> -->
    </div>
   </nav>
    <!-- End Bootstrap nav -->
 
 
-<img src ="resume/banner-for-resume.JPG" width="500px">
+
 
  <!-- Jumbotron-->
  <div class="jumbotron">
-  <h1 class="display-4">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
- </div>
+   <img src ="resume-banner.JPG" class="center">
+</div>
 
  <!-- Grids-->
+ <div class="container">
+         <div class="row">
+
+                 <div class="col-md-6">
+                         <div class="sectionheader"><i class="fas fa-address-card"></i>          ABOUT            </div>
+                         <p>I am a student at the University of Maryland College Park, perusing a double degree in Government and Politics International Relations and Journalism Multi-Platform with a minor in German. I am also a copy editor for the student run campus magazine, Unwind, and a student journalist.</p>
+                 </div>
+                 <div class="col-md-6">
+                         <div class="sectionheader"><i class="fas fa-pen-square"></i>          CONTACT ME</div>
+                         <div><a class="link" href ="mailto:nhayav20@gmail.com"><i class="far fa-envelope fa-2x" color="black"></i></a>&nbsp&nbsp     Email Me
+                         <div><a class="link" href = www.linkedin.com/in/nhaya-vaidya><i class="fab fa-linkedin fa-2x"></i></a>&nbsp&nbsp&nbsp    LinkedIn </div>
+                         <div><a class="link" href = https://twitter.com/Nhayav20><i class="fab fa-twitter fa-2x"></i></a>&nbsp&nbsp  Twitter</div>
+                         <div><a class="link" href = https://github.com/nhayav><i class="fab fa-github fa-2x"></i></a>&nbsp&nbsp   GitHub</div>
+
+                 </div>
+
+         </div>
+ </div>
 
  <div class="container">
          <div class="grid">
 
-                 <div class="col-md-12">
-
-                         <h3>About</h3>
-                         <p>I am a student at the University of Maryland College Park, perusing a double degree in Government and Politics International Relations and Journalism Multi-Platform with a minor in German. I am also a copy editor for the campus magazine Unwind and a student journalist.</p>
-                 </div>
 
                  <div class="col-md-12">
-                         <h3>Experience</h3>
-                         <div class="jobtitle">Copy Editor | Unwind Magazine</div>
+                         <div class="sectionheader"><i class="fas fa-university"></i>&nbsp EXPERIENCE</div>
+                         <div class="jobtitle">Copy Editor | <a class= "link2"href= "https://unwindumd.wordpress.com/">Unwind Magazine</a></div>
                          <div class="date">February 2020 – present</div>
-                         <p class="text-left">I edit two to three stories a month during the semester for the student run magazines publication. I fact check each story to make sure that no false information is being published. I worked with the copy chief, section editors, and reporters to make sure the story facts were correct and to ensure the story was getting out on time. I used AP style when editing the stories. </p>
+                         <ul class="description">
+                           <li>I edit two to three stories a month during the semester for the student run magazine using AP Style.</li>
+                           <li>I fact check each story.</li>
+                            <li>I work with the copy chief, section editors, and reporters to make sure the story facts are correct.</li>
+                            </ul>
 
-                         <div class="jobtitle">English 101 Teaching Assistant | University of Maryland College Park </div>
+                         <div class="jobtitle">English 101 Teaching Assistant | University of Maryland College Park</div>
                          <div class="date">September 2019 — December 2019</div>
-                         <p class="description">I taught and created lesson plans for the students of English 101. I graded and reviewed students’ papers and other assignments. I held office hours and offered feedback to students. I worked with the professor and my fellow TA to come up with ideas to help the students succeed in the class and ideas that would carry on into following semesters.</p>
-
-                         <div class="jobtitle">Optometrist Assistant | ForEyes Optical</div>
-                         <div class="date">August 2018 – June 2019</div>
-                         <p class="description">I check patients in and out of the office. I run phones and file patients charts and insurances. I pretest patients. </p>
+                         <ul class="description">
+                           <li>Created and taught lesson plans to the  students.</li>
+                           <li>Graded and reviewed students’ assignments.</li>
+                           <li>Worked with the professor to better help the students and came up with ideas to implement in future semesters.</li>
+                         </ul>
 
                          <div class="jobtitle">Writer | The Jagwire</div>
                          <div class="date">September 2016 – May 2018</div>
-                         <p class="description">I write stories for my high school newspaper. I would write about one a week depending on the assignment. I use AP Style in my stories.</p>
+                         <ul class="description">
+                           <li>Wrote and pitched stories for my high school newspaper following AP Style.</li>
+                         </ul>
 
                          <div class="jobtitle">Writer & Editor | Northwest High School Yearbook</div>
                          <div class="date">September 2016 – May 2018</div>
-                         <p class="description">I write spreads for the yearbook. I edited and created spreads. I also took photos for the yearbook. I help come up with ideas for future yearbooks and spreads. </p>
+                         <ul class="description">
+                           <li>Wrote, edited, and created spreads for the yearbook.</li>
+                           <li>Took photos for spreads.</li>
+                           <li>Pitched ideas for spreads and yearbook themes.</li>
+                         </ul>
 
 
                  </div>
 
                  <div class="col-md-12">
-                         <h3>Leadership</h3>
-                         <div class="jobtitle">Vice President of Administrative Affairs | Office of Multi-Ethnic Student Education Academic Excellency Society (OAES) </div>
+                         <div class="sectionheader"><i class="fas fa-chalkboard-teacher"></i>  LEADERSHIP</div>
+                         <div class="jobtitle">Vice President of Administrative Affairs | <a class="link2" href="https://omse.umd.edu/oaes/">Office of Multi-Ethnic Student Education Academic Excellency Society</a> </div>
                          <div class="date">September 2019 – present</div>
-                         <p class="description">As the Vice President of Administrative Affairs, I help run and plan the General Body Meetings (GBMs) and the Executive Board Meetings (EBMs). I send out announcements and reminders to the members of the society to ensure they are on task for completing their requirements. I track their completed requirements to ensure their membership is active. I take minutes at the EBMs and co-plan our GBMs and other events. I take photos and create visuals at our GBMs.</p>
+                         <ul class="description">
+                           <li>Run and co-plan General Body Meetings (GBMs) and the Executive Board Meetings (EBMs).</li>
+                           <li>Send out announcements and reminders to members of the society.</li>
+                           <li>Track members requirements.</li>
+                           <li>Take photos at organization events. Create visuals for meetings.</li>
+                         </ul>
 
 
-                         <div class="jobtitle">Vice President | ERS Club</div>
+                         <div class="jobtitle">Vice President | Card Game Club</div>
                          <div class="date">September 2019 – present</div>
-                         <p class="description">I co-founded this club at UMD with the president. I plan and organize the meetings and manage our emails. I co-run our social media accounts.</p>
+                         <ul class="description">
+                           <li>Co-founder of the club.</li>
+                           <li>Plan and organize weekly meetings and manage emails.</li>
+                           <li> Co-run's social media accounts.</li>
+                        </ul>
 
                          <div class="jobtitle">Secretary & Treasurer | Science National Honor Society</div>
                          <div class="date">May 2017 – June 2018</div>
-                         <p class="description">I managed new student's applications and filed paperwork. I aided science teachers and tutored science students</p>
+                         <ul class="description">
+                           <li>Managed new student's applications and filed paperwork.</li>
+                           <li>Aided science teachers with classroom organization and tutored science students.</li>
+                        </ul>
 
 
                  </div>
 
                  <div class="col-md-12">
-                         <h3>Education</h3>
+                         <div class="sectionheader"><i class="fas fa-graduation-cap"></i>   EDUCATION</div>
                          <ul>
-                          <li>Bachelor of Arts, Government and Politics International Relations, Journalism Multi-Platform, University of Maryland College Park, 2022 </li>
-                          <li>Minor in German, University of Maryland College Park, 2022</li>
+                          <li>Bachelor of Arts, Government and Politics International Relations, <a class="link2" href="https://umd.edu/">University of Maryland College Park</a>, 2022</li>
+                          <li>Bachelor of Arts, Journalism Multi-Platform, <a class="link2" href ="https://merrill.umd.edu/">Philip Merrill College of Journalism</a>, 2022</li>
+                          <li>Minor in German, University of Maryland College Park, 2022</i></li>
                           <li>GPA: 3.816</li>
-                          <li>Academic Honors, Spring 2019 & Fall 2019</li>
-                          <li>Accepted into the Summer 2020 Salzburg Academy on Media and Global Change Study Abroad Program</li>
+                          <li>Academic Honors: Spring 2019 & Fall 2019</li>
+                          <li>Accepted into the Summer 2020 <a class="link2" href="https://globalmaryland.umd.edu/offices/education-abroad/program/10292">Salzburg Academy on Media and Global Change Study Abroad Program</a>, University of Maryland College Park</li>
                          </ul>
                  </div>
 
                  <div class="col-md-12">
-                         <h3>Skills</h3>
+                         <div class="sectionheader"> <i class="fas fa-laptop-code"></i>  SKILLS</div>
                          <ul>
                            <li><strong>Copy Editing.</strong> Follows AP Style. Works as a copy editor.</li>
-                           <li><strong>Journalism.</strong> Student Journalist and working for a publication. Abides by SPJ Code of Ethics.</li>
-                            <li><strong>Photojournalism.</strong> Understands how to use a DSLR Camera and how to create stories with photos.</li>
-                           <li><strong>Photo Editing.</strong> Uses Adobe Photoshop and Adobe Bridge.</li>
+                           <li><strong>Journalism.</strong> Student Journalist working for a publication.Abides by <a class="link2" href="https://www.spj.org/ethicscode.asp">SPJ Code of Ethics.</a></li>
+                            <li><strong>Photojournalism.</strong> Familiar with a DSLR Camera. Took a Photojournalism class. Understands how to create stories with pictures.</li>
+                           <li><strong>Photo Editing.</strong> Proficient in Adobe Photoshop and Adobe Bridge.</li>
                            <li><strong>Teaching.</strong> Experience as an English TA and creating lesson plans for students.</li>
-                           <li><strong>Data analysis.</strong> Has experience with R and R Studio to compile data and learn trends from data. Can create graphs and plots with R Studio with data.</li>
+                           <li><strong>Data analysis.</strong> Has experience with R and R Studio to analysis data. Can create graphs and plots with R Studio with data.</li>
                            <li><strong>German.</strong> Can understand and speak basic German.</li>
                            <li><strong>Spanish.</strong> Can understand and speak very basic Spanish</li>
                          </div>
@@ -162,55 +199,44 @@
 
                  <div class="col-md-12">
 
-                         <h3>Awards/Honors</h3>
-                         <div>September 2019 - present</div>
+                         <div class="sectionheader"><i class="fas fa-award"></i>   AWARDS</div>
+                         <div class="date">September 2019 - present</div>
                          <ul>
-                           <li>Member of Office of Multi-Ethnic Student Education Academic Excellency Society (OAES)</li>
+                           <li>Member of the Office of Multi-Ethnic Student Education Academic Excellency Society</li>
                          </ul>
 
-                         <div>September 2017 - June 2018</div>
+                         <div class="date">September 2017 - June 2018</div>
                          <ul>
                            <li>Member of Quill and Scroll – Journalism National Honor Society </li>
-                           <li>Member of English National Honor Society</li>
+                           <li>Member of the English National Honor Society</li>
                          </ul>
 
-                         <div>September 2016 - June 2018</div>
+                         <div class="date">September 2016 - June 2018</div>
                          <ul>
-                           <li>Member of National Honor Society</li>
-                           <li>Member of National Honor Society Society</li>
-                           <li>Member of Science National Honor Society</li>
+                           <li>Member of the National Honor Society</li>
+                           <li>Member of the Math National Honor Society</li>
+                           <li>Member of the Science National Honor Society</li>
+                           <div class="bottom"></div>
                          </ul>
 
                  </div>
 
-                 <div class="col-md-12">
-                         <h3>Other</h3>
-                         <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                 </div>
-
          </div>
  </div>
 
 
- <div class="container">
-         <div class="row">
 
-                 <div class="col-md-4">
-                         <h3>Heading 1</h3>
-                         <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                 </div>
-                 <div class="col-md-4">
-                         <h3>Heading 2</h3>
-                         <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor.</p>
-                 </div>
 
-                 <div class="col-md-4">
-                         <h3>Heading 3</h3>
-                         <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                 </div>
-         </div>
- </div>
+ <!-- Footer -->
+ <footer class="page-footer">
 
+   <!-- Copyright -->
+   <div class="footer-copyright text-center py-3">Nhaya Vaidya's resume © 2020 Copyright
+   </div>
+   <!-- Copyright -->
+
+ </footer>
+ <!-- Footer -->
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
