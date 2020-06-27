@@ -1,5 +1,23 @@
 /*Styles for my resume*/
 
+
+/* Modify the backgorund color */
+.navbar-custom {
+    background-color: #6368c9;
+}
+
+/*title nav bar color*/
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+
 /*body text*/
 BODY {
   font-family:'Lato', Arial, sans-serif;;
@@ -7,7 +25,15 @@ BODY {
   font-weight: 400;
 }
 
+/*banner*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 
+/*section headers*/
 .sectionheader{
   color:#6368c9;
   border-bottom: 1.5px solid #000000;
@@ -18,6 +44,22 @@ BODY {
   margin-bottom: 15px;
   margin-left: 0;
   margin-right: 0;
+}
+
+
+/*link for contact*/
+.link{
+  color: #6368c9;
+}
+
+/*links for experience*/
+.link2{
+  color: black;
+}
+
+/*color to change when hovering over links*/
+a:hover{
+  color: #E029A1;
 }
 
 /*jobtitles*/
@@ -43,11 +85,18 @@ BODY {
   margin-right: 0;
 }
 
-
 /*paragraphs*/
 .description{
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*bottom padding*/
+.bottom{
+  margin-top: 0px;
+  margin-bottom: 50px;
   margin-left: 0;
   margin-right: 0;
 }
